@@ -1,5 +1,6 @@
 body {
     background: linear-gradient(rgb(58, 53, 53), #eee);
+    /* body styles */
 }
 
 .main {
@@ -7,6 +8,7 @@ body {
     flex-wrap: wrap;
     align-items: center;
     flex-direction: row;
+    /* main container */
 }
 
 .main img {
@@ -15,12 +17,11 @@ body {
     box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
     transition: 0.5s ease-in;
     margin: 0 auto;
-}
-
-img {
     width: 400px;
+    /* flex-items styling */
 }
 
 img:hover {
     transform: scale(1.1);
+    /* will scale on hovers */
 }
